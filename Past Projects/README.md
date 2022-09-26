@@ -4,4 +4,3 @@
   
 ## OOPFinalProject
   * Was a Java Project using a application called scenebuider to create a basic UI for a online Menu.
-![Screen 1](Past Projects/OOPFinalProject/MenuScreen1.png)
