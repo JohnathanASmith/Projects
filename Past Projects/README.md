@@ -5,5 +5,5 @@
 ## OOPFinalProject
   * Was a Java Project using a application called scenebuider to create a basic UI for a online Menu.
 
-## Past Python Code
+## Random Python Code
  * This is a collection of random Python code that I have worked on in the past.
