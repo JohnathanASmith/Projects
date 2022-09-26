@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane fx:id="tabsWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopfinalproject.MenuController">
+  <tabs>
+    <Tab fx:id="FirstPageTab" text="Menu">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="191.0" layoutY="14.0" prefHeight="44.0" prefWidth="175.0" text="Menu" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold Italic" size="36.0" />
+                     </font>
+                  </Label>
+                  <SplitMenuButton fx:id="Drinks_Menu" layoutX="30.0" layoutY="59.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="136.0" text="Drinks">
+                    <items>
+                      <MenuItem fx:id="Water_Item" mnemonicParsing="false" onAction="#Water_Item_clicked" text="Water" />
+                      <MenuItem fx:id="Minute_maid_item" mnemonicParsing="false" onAction="#Minute_maid_item_clicked" text="Minute Maid   " />
+                        <MenuItem fx:id="Coca_cola_Item" mnemonicParsing="false" onAction="#Coca_cola_Item_clicked" text="Coca-Cola" />
+                        <MenuItem fx:id="Pepsi_Item" mnemonicParsing="false" onAction="#Pepsi_Item_Clicked" text="Pepsi" />
+                        <MenuItem fx:id="Mountain_dew_Item" mnemonicParsing="false" onAction="#Mountain_dew_Item_clicked" text="Mountain Dew" />
+                        <MenuItem fx:id="Sprite_Item" mnemonicParsing="false" onAction="#Sprite_Item_Clicked" text="Sprite" />
+                        <MenuItem fx:id="HI_C_Item" mnemonicParsing="false" onAction="#HI_C_Item_Clicked" text="HI-C" />
+                        <MenuItem fx:id="Sweet_Tea_Item" mnemonicParsing="false" onAction="#Sweet_Tea_Item_Clicked" text="Sweet Tea" />
+                    </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton fx:id="Apps_Menu" layoutX="211.0" layoutY="59.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="136.0" text="Appetizers">
+                    <items>
+                      <MenuItem fx:id="queso_item" mnemonicParsing="false" onAction="#queso_item_clicked" text="Chips &amp; Queso   $5.00" />
+                      <MenuItem fx:id="guacamole_item" mnemonicParsing="false" onAction="#guacamole_item_Clicked" text="Guacamole &amp; Chips   $7.00" />
+                        <MenuItem fx:id="Fries_item" mnemonicParsing="false" onAction="#Fries_item_Clicked" text="Carne Asada Fries   $10.00" />
+                        <MenuItem fx:id="elote_item" mnemonicParsing="false" onAction="#elote_item_Clicked" text="Mexican Street Corn   $6.00" />
+                        <MenuItem fx:id="frita_item" mnemonicParsing="false" onAction="#frita_item_Clicked" text="Avacado Frita   $8.00" />
+                        <MenuItem fx:id="salad_item" mnemonicParsing="false" onAction="#salad_item_Clicked" text="Garden Salad   $7.00" />
+                        <MenuItem fx:id="soup_item" mnemonicParsing="false" onAction="#soup_item_Clicked" text="Chicken Tortilla Soup Bowl   $9.00" />
+                        <MenuItem fx:id="Wings_Item" mnemonicParsing="false" onAction="#Wings_Item_Clicked" text="12 Buffalo Wings   $12.00" />
+                    </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton fx:id="Main_Course_Menu" layoutX="400.0" layoutY="56.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="136.0" text="Main Course">
+                    <items>
+                      <MenuItem fx:id="Taco_Salad_Item" mnemonicParsing="false" onAction="#Taco_Salad_Clicked" text="Taco Salad   $10.00" />
+                      <MenuItem fx:id="Fajita_Taco_Salad_Item" mnemonicParsing="false" onAction="#Fajita_Taco_Salad_Item_Clicked" text="Fajita Taco Salad   $12.00" />
+                        <MenuItem fx:id="Sopa_De_Pollo_Item" mnemonicParsing="false" onAction="#Sopa_De_Pollo_Item_Clicked" text="Sopa De Pollo   $8.00" />
+                        <MenuItem fx:id="Chori_Pollo_Tacos_Item" mnemonicParsing="false" onAction="#Chori_Pollo_Tacos_Item_Clicked" text="Chori-Pollo Tacos   $13.00" />
+                        <MenuItem fx:id="Fajita_Nachos_Item" mnemonicParsing="false" onAction="#Fajita_Nachos_Item_Clicked" text="Fajita Nachos   $13.00" />
+                        <MenuItem fx:id="El_Cerro_Enchiladas_Item" mnemonicParsing="false" onAction="#El_Cerro_Enchiladas_Item_Clicked" text="El Cerro Enchiladas   $12.00" />
+                        <MenuItem fx:id="Shrimp_Quesadillas_Item" mnemonicParsing="false" onAction="#Shrimp_Quesadillas_Item_Clicked" text="Shrimp Quesadillas   $12.00" />
+                        <MenuItem fx:id="Camarones_Rancheros_Item" mnemonicParsing="false" onAction="#Camarones_Rancheros_Item_Clicked" text="Camarones Rancheros   $15.00" />
+                        <MenuItem fx:id="Arroz_Con_Camarones_Item" mnemonicParsing="false" onAction="#Arroz_Con_Camarones_Item_Clicked" text="Arroz Con Camarones   $15.00" />
+                        <MenuItem fx:id="Green_Burrito_Item" mnemonicParsing="false" onAction="#Green_Burrito_Item_Clicked" text="Green Burrito   $12.00" />
+                    </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton fx:id="Drink_menu_size" layoutX="30.0" layoutY="112.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="136.0" text="Drink Size">
+                    <items>
+                      <MenuItem fx:id="Drink_SizeSmall_Item" mnemonicParsing="false" onAction="#Drink_SizeSmall_Item_Clicked" text="Small   $1.00" />
+                      <MenuItem fx:id="Drink_SizeMedium_Item" mnemonicParsing="false" onAction="#Drink_SizeMedium_Item_Clicked" text="Medium   $1.50" />
+                        <MenuItem fx:id="Drink_SizeLarge_Item" mnemonicParsing="false" onAction="#Drink_SizeLarge_Item_Clicked" text="Large $2.00" />
+                    </items>
+                  </SplitMenuButton>
+                  <Button fx:id="Submit_Button" layoutX="345.0" layoutY="263.0" mnemonicParsing="false" onAction="#Submit_Button_Clicked" prefHeight="77.0" prefWidth="231.0" text="Submit Order" />
+                  <TextArea fx:id="cart_textArea" editable="false" layoutX="30.0" layoutY="184.0" prefHeight="157.0" prefWidth="287.0" />
+               </children>
+            </AnchorPane>
+         </content></Tab>
+    <Tab fx:id="secondPageTab" text="Tab">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TextArea fx:id="tab_TextArea" editable="false" layoutX="14.0" layoutY="53.0" prefHeight="254.0" prefWidth="200.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="70.0" layoutY="21.0" prefHeight="17.0" prefWidth="69.0" text="Tab" textAlignment="CENTER">
+                     <font>
+                        <Font name="Times New Roman Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="254.0" layoutY="89.0" text="Payment Options:">
+                     <font>
+                        <Font name="Courier New Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="cash_button" layoutX="410.0" layoutY="85.0" mnemonicParsing="false" onAction="#Cash_Button_Clicked" text="Cash" />
+                  <Button fx:id="card_button" layoutX="471.0" layoutY="85.0" mnemonicParsing="false" onAction="#Card_Button_Clicked" text="Card" />
+                  <Label layoutX="302.0" layoutY="153.0" prefHeight="23.0" prefWidth="59.0" text="Total:">
+                     <font>
+                        <Font name="Courier Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="total_Textfield" editable="false" focusTraversable="false" layoutX="389.0" layoutY="151.0" prefHeight="26.0" prefWidth="148.0" />
+                  <Label layoutX="301.0" layoutY="197.0" text="Payment :">
+                     <font>
+                        <Font name="Courier Bold Oblique" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="payment_TextField" layoutX="390.0" layoutY="194.0" />
+                  <TextField fx:id="change_TextField" editable="false" focusTraversable="false" layoutX="389.0" layoutY="274.0" />
+                  <Label layoutX="300.0" layoutY="277.0" text="Change :">
+                     <font>
+                        <Font name="Courier Bold Oblique" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Tip_textField" layoutX="390.0" layoutY="234.0" prefHeight="26.0" prefWidth="148.0" />
+                  <Label layoutX="300.0" layoutY="237.0" text="Tip Amount: ">
+                     <font>
+                        <Font name="Courier Bold Oblique" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="224.0" layoutY="324.0" text="Time until food is ready :">
+                     <font>
+                        <Font name="Courier Bold Oblique" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="time_TextField" editable="false" focusTraversable="false" layoutX="389.0" layoutY="321.0" prefHeight="26.0" prefWidth="148.0" />
+                  <Label layoutX="544.0" layoutY="324.0" text="mins">
+                     <font>
+                        <Font name="Courier Bold Oblique" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="back_button" layoutX="14.0" layoutY="317.0" mnemonicParsing="false" onAction="#back_Button_Clicked" prefHeight="34.0" prefWidth="198.0" text=" &lt;--- Back" />
+               </children>
+            </AnchorPane>
+         </content></Tab>
+  </tabs>
+</TabPane>
