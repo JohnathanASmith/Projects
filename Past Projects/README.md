@@ -3,4 +3,4 @@
   
   
 ## OOPFinalProject
-  Was a Java Project using a application called scenebuider to create a basic UI for a online Menu.
+  * Was a Java Project using a application called scenebuider to create a basic UI for a online Menu.
