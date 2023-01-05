@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "942643978105",
+    "project_id": "uncwnavigator",
+    "storage_bucket": "uncwnavigator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942643978105:android:e2d0dac3528f8a498f19a8",
+        "android_client_info": {
+          "package_name": "com.example.uncwnavigatorapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942643978105-thto2seunjqp1495j75tofeis3564a1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi6md6W_uT99c11oP2sRRJj2PUfM3udk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942643978105-thto2seunjqp1495j75tofeis3564a1g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "942643978105-v6i1r6gq3u1bp11p07j9epn9uqlvh9bo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.uncwnavigatorapplication"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
