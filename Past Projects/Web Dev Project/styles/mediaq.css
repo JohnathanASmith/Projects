@@ -1,0 +1,28 @@
+@media only screen and (max-width: 500px) {
+    
+    #main_nav ul li {
+      clear: left;
+      width: 100%;
+    }
+
+    header img {
+        display: none;
+    }
+
+    #users_events span {
+        display: none;
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 435px) {
+  
+    header h2{
+        font-size: 3em;
+    }
+  
+  
+  }
+  
+  

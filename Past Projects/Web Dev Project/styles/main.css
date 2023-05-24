@@ -1,0 +1,210 @@
+/* Johnathan Smith */
+
+
+.tooltip-container {
+    position: relative;
+}
+
+
+p#tooltip-text {
+    display: none;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    background: #00732c;
+    padding: 8px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 2px;
+    animation: fadeIn 0.6s;
+}
+
+@keyframes fadeIn {
+ from {
+   opacity: 0;
+ }
+ to {
+   opacity: 1;
+ }
+}
+
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  border: 3px solid black;
+  background-color: #DAE0E6;
+}
+
+header h2 {
+    background-color: white;
+  color: darkslategray;
+  font-size: 7em;
+  text-indent: 3.75%;
+  margin: 0;
+}
+
+header img {
+  width: 11.6%;
+  float: left;
+}
+
+
+nav {
+  clear: left;
+}
+
+#main_nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+#main_nav ul li {
+  float: left;
+  width: 20%;
+}
+
+#main_nav ul li a {
+  background-color: darkslategray;
+  color: ivory;
+  text-align: center;
+  padding: 0.416666% 0;
+  display: block;
+  text-decoration: none;
+}
+
+#main_nav ul li a.current {
+  color: ivory;
+  background-color: slategray;
+}
+
+#main_nav ul li a:hover,
+#main_nav ul li a:focus {
+  background-color: lightslategray;
+}
+
+#main_nav ul ul {
+  width: 100%;
+  display: none;
+  position: absolute;
+}
+
+#main_nav ul ul li {
+  float: none;
+}
+
+#main_nav ul li:hover > ul {
+  display: block;
+}
+
+main {
+  clear: both;
+  margin: 0.625em 1.25%;
+}
+
+section {
+    background-color: white;
+
+}
+
+#users_events {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "created"
+    "joined"
+    ;
+}
+
+.wrap {
+    padding: 1em;
+    min-width: 0;
+    background-color: white;
+}
+
+#created_events {
+    padding: 1em;
+    min-width: 0;
+    grid-area: created;
+    background-color: white;
+}
+
+#joined_events {
+    padding: 1em;
+    min-width: 0;
+    grid-area: joined;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+}
+
+.next {
+    text-align: right;
+}
+
+.back {
+    text-align: left;
+}
+
+tbody {
+    width: 100%;
+}
+
+#eventCount {
+    font-weight: bold;
+}
+
+.eventPost {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: lightslategray;
+    align-items: center;
+    
+}
+
+.eventPost:hover,
+.eventPost:focus {
+    border-style: solid;
+    border-color: black;
+}
+
+.eventPost img {
+    flex: 0 0 96px;
+    height: 72px;
+}
+
+.eventPost a {
+    display: grid;
+    border: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+span {
+    overflow-wrap: anywhere;
+}
+
+.eventPostDescription h3{
+    margin: 0 0 0 0;
+    overflow-wrap: anywhere;
+}
+
+footer {
+  font-size: 1.25em;
+  text-align: center;
+  background-color: darkslategray;
+  padding: 0.9375em 2.5%;
+  color: ivory;
+  clear: both;
+}
+
+footer p {
+  color: ivory;
+  text-align: center;
+}
+  
